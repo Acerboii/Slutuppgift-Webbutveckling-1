@@ -23,13 +23,11 @@ header {
 
 .logo {
     
-    width: 60%;
+    width: 20%;
     float: left;
 }
 
-.logo img {
-    width: 140px;
-}
+
 
 nav{
     
@@ -60,6 +58,12 @@ nav a {
     padding: 10px;
     padding-bottom: 8px;
     border-radius: 5px;
+}
+
+@media screen and (min-width:600px) {
+    nav a { font-size: 30%;
+        color: green;
+    }
 }
 
 nav a:hover {
